@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+}
+
+body {
+  color: white;
+  background: black;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: center;
+}
+
+input {
+  -webkit-appearance: none;
+  display: none;
+  visibility: hidden;
+}
+ol {
+  list-style: none;
+  display: flex;
+  height: 0px;
+}
+
+ol li span {
+  font-size: 40px;
+  cursor: pointer;
+  margin: 90px;
+}
+
+input:checked ~ .fa-vimeo {
+  color: yellow;
+  text-shadow: 0 0 100px yellow, 0 0 100px yellow;
+}
+
+input:checked ~ .fa-instagram {
+  color: rgb(248, 9, 109);
+  text-shadow: 0 0 100px rgb(248, 9, 109), 0 0 100px rgb(248, 9, 109);
+}
+
+input:checked ~ .fa-github {
+  color: rgb(111, 233, 12);
+  text-shadow: 0 0 100px rgb(157, 255, 0), 0 0 100px rgb(157, 255, 0);
+}
+
+input:checked ~ .fa-youtube {
+  color: red;
+  text-shadow: 0 0 100px red, 0 0 100px red;
+}
+
+input:checked ~ .fa-twitter {
+  color: rgb(3, 28, 83);
+  text-shadow: 0 0 100px rgb(3, 28, 83), 0 0 100px rgb(3, 28, 83);
+}
+
+input:checked ~ .fa-thumbs-up {
+  color: rgb(15, 159, 226);
+  text-shadow: 0 0 100px rgb(8, 139, 214), 0 0 100px rgb(8, 160, 206);
+}
